@@ -1,0 +1,28 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "io.cordova.apk.installer.sample"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "io.cordova.apk.installer.sample"
+        },
+        "cordova-plugin-apkInstaller": {
+            "PACKAGE_NAME": "io.cordova.apk.installer.sample"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "io.cordova.apk.installer.sample"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "io.cordova.apk.installer.sample"
+        }
+    }
+}

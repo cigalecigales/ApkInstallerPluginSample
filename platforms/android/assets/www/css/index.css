@@ -1,0 +1,14 @@
+.contents {
+    padding: 20px;
+}
+
+.message {
+    text-align: center;
+    padding: 10px;
+}
+
+.android {
+    font-size: 100px;
+    margin: 50px auto;
+    color: #118C7A;
+}

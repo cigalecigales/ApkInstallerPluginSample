@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src * 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsenui.css">
+    <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsen-css-components.min.css">
+    <script src="https://unpkg.com/onsenui/js/onsenui.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <title>Apk Installer Sample</title>
+</head>
+
+<body>
+    <ons-page>
+        <ons-toolbar>
+            <div class="center">Apk Installer Sample</div>
+        </ons-toolbar>
+        <div class="app">
+            <div id="deviceready">
+                <div class="contents">
+                    <div class="message">
+                        Download Apk file and install the file.<br>
+                        Click INSTALL button.<br>
+                        <ons-icon icon="fa-android" class="android"></ons-icon>
+                    </div>
+
+                    <ons-button id="install" modifier="large">INSTALL</ons-button>
+                </div>
+            </div>
+        </div>
+        <ons-modal direction="up">
+            <div style="text-align: center">
+                <p>
+                    <ons-icon icon="md-spinner" size="28px" spin></ons-icon> Loading...
+                </p>
+            </div>
+        </ons-modal>
+    </ons-page>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+
+</html>
