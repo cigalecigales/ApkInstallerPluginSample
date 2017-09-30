@@ -21,7 +21,7 @@
         <allow-intent href="itms-apps:*" />
     </platform>
     <engine name="android" spec="^6.2.3" />
-    <plugin name="cordova-plugin-apkInstaller" spec="../../git/cordova-plugin-apkInstaller" />
+    <plugin name="cordova-plugin-apkInstaller" spec="https://github.com/cigalecigales/cordova-plugin-apkInstaller.git" />
     <plugin name="cordova-plugin-file-transfer" spec="^1.6.3" />
     <plugin name="cordova-plugin-whitelist" spec="^1.3.2" />
 </widget>

@@ -22,7 +22,7 @@ var app = {
             var sandBoxDirectory = cordova.file.dataDirectory;
 
             // Please set apk download path
-            var apkUrl = 'http://192.168.3.2:8080/ApkDownloadProject/faces/javax.faces.resource/apk/android-debug.apk';
+            var apkUrl = 'http://example.com/sample.apk';
 
             // Get file name by apk url;
             var fileName = apkUrl.match(/[^/]+$/i)[0];

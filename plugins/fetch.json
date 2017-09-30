@@ -33,8 +33,8 @@
     },
     "cordova-plugin-apkInstaller": {
         "source": {
-            "type": "local",
-            "path": "/Users/yukiho/Documents/create/cordova/apkInstallerPluginSample/node_modules/cordova-plugin-apkInstaller"
+            "type": "registry",
+            "id": "https://github.com/cigalecigales/cordova-plugin-apkInstaller.git"
         },
         "is_top_level": true,
         "variables": {}
